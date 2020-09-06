@@ -20,7 +20,7 @@ wget https://dl.grafana.com/oss/release/grafana_7.1.3_armhf.deb
 sudo dpkg -i grafana_7.1.3_armhf.deb
 
 #sudo echo enable grafana-server
-#sudo systemctl enable grafana-server
+sudo systemctl enable grafana-server
 
 #sudo echo starting grafana-server
-#sudo systemctl start grafana-server
+sudo systemctl start grafana-server
