@@ -11,4 +11,4 @@ sudo cp /home/pi//MONICON/SESS_BS_ID001/package.json /home/pi/.node-red/package.
 
 echo Download complete
 
-//sudo reboot
+sudo reboot
