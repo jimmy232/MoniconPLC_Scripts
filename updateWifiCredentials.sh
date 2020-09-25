@@ -1,7 +1,7 @@
 #!/bin/bash
 # Load new wifi Credentials
 
-sudo rm /home/pi/etc/wap_supplicant/wpa_supplicant.conf
+sudo rm /home/pi/etc/wpa_supplicant/wpa_supplicant.conf
 cd /home/pi/etc/wpa_supplicant/
 
 sudo sh -c "echo ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev >> wpa_supplicant.conf"
