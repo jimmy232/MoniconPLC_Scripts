@@ -1,5 +1,5 @@
 #!/bin/bash
-# Download SESS_BS_ID002 from github repository
+# Download MoniconPLC from github repository
 
 sudo git clone https://github.com/jimmy232/MoniconPLC.git /home/pi/MONICON/MoniconPLC
 
