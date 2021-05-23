@@ -1,7 +1,13 @@
 #!/bin/bash
 # Install SIXFAB python3 script to enable 3rd party status scripting
 
-sudo mkdir /home/pi/sixfab
+if [ -d "/home/pi/sixfab" ] 
+then
+    
+else
+    sudo mkdir /home/pi/sixfab
+fi
+
 
 sudo git clone https://github.com/jimmy232/MoniconPLCFiles.git /home/pi/MONICON/MoniconPLCFiles
 sudo cp /home/pi/MONICON/MoniconPLCFiles/sixfab.py /home/pi/sixfab/Sixfab_RPi_CellularIoT_Library
