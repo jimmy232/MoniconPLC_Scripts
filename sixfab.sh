@@ -12,7 +12,7 @@ cd Sixfab_RPi_CellularIoT_Library
 sudo python3 setup.py install
 
 sudo git clone https://github.com/jimmy232/MoniconPLCFiles.git /home/pi/MONICON/MoniconPLCFiles
-sudo cp /home/pi/MONICON/MoniconPLCFiles/sixfab.py /home/pi/sixfab/Sixfab_RPi_CellularIoT_Library
+sudo mv /home/pi/MONICON/MoniconPLCFiles/sixfab.py /home/pi/sixfab/Sixfab_RPi_CellularIoT_Library
 sudo rm -r /home/pi/MONICON/MoniconPLCFiles
 
 echo Download complete
