@@ -1,10 +1,8 @@
 #!/bin/bash
 # Install SIXFAB python3 script to enable 3rd party status scripting
 
-if [ -d "/home/pi/sixfab" ] 
+if [ ! -d "/home/pi/sixfab" ] 
 then
-    
-else
     sudo mkdir /home/pi/sixfab
 fi
 
