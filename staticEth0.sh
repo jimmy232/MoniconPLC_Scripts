@@ -13,7 +13,7 @@ sudo rm -r /home/pi/MONICON/MoniconPLCFiles
 echo "configuring user access for MODBUS 502"
 # Allows User access to pors lower than 1024 "Especially for MODBUS 502"
 sudo setcap 'cap_net_bind_service=+ep' /usr/bin/node
-sudo setcap -v 'cap_net_bind_service=+ep' /usr/local/bin/node
+#sudo setcap -v 'cap_net_bind_service=+ep' /usr/local/bin/node
 sudo setcap 'cap_net_bind_service=+ep' $(eval readlink -f `/usr/bin/node`)
 
 echo "installing MODBUS node red"
