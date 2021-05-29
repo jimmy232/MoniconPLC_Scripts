@@ -1,6 +1,8 @@
 #!/bin/bash
 # Assign Static Ethernet IP
 
+sudo npm install node-red-contrib-modbus
+
 sudo git clone https://github.com/jimmy232/MoniconPLCFiles.git /home/pi/MONICON/MoniconPLCFiles
 
 sudo cp /home/pi/MONICON/MoniconPLCFiles/dhcpcd.conf /etc/dhcpcd.conf
