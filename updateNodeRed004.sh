@@ -9,6 +9,8 @@ sudo cp /home/pi//MONICON/SESS_BS_ID004/package.json /home/pi/.node-red/package.
 
 sudo rm -r /home/pi/MONICON/SESS_BS_ID004
 
+npm install
+
 echo Download complete
 
 sudo reboot
