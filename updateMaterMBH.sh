@@ -11,7 +11,7 @@ sudo cp /home/pi//MONICON/MaterMBH/package.json /home/pi/.node-red/package.json
 
 #sudo rm -r /home/pi/MONICON/MaterMBH
 
-npm install
+#npm install
 
 echo Download complete
 
