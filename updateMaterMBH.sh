@@ -1,6 +1,8 @@
 #!/bin/bash
 # Download MaterMBH from github repository
 
+npm cache clean
+
 sudo git clone https://github.com/jimmy232/MaterMBH.git /home/pi/MONICON/MaterMBH
 
 sudo cp /home/pi/MONICON/MaterMBH/flow.json /home/pi/.node-red/flows_SESS.json
