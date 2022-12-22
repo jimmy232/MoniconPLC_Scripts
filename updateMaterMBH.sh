@@ -15,4 +15,4 @@ sudo cp /home/pi//MONICON/MaterMBH/package.json /home/pi/.node-red/package.json
 
 echo Download complete
 
-#sudo reboot
+sudo reboot
