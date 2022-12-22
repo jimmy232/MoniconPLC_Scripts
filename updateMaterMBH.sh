@@ -1,7 +1,7 @@
 #!/bin/bash
 # Download MaterMBH from github repository
 
-npm cache clean
+sudo npm cache clean --force
 
 sudo git clone https://github.com/jimmy232/MaterMBH.git /home/pi/MONICON/MaterMBH
 
